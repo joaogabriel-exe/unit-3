@@ -6,10 +6,9 @@ jobs:
   build:
     runs-on: windows-latest
 
-steps:
+    steps:
+      - name: Ver la hora
+        run: date
 
-- name: Ver la hora
-  run: date
-
-- name: Esperar 3 segundos
-  run: timeout /t 3
+      - name: Esperar 3 segundos
+        run: timeout /t 3
