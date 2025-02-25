@@ -11,4 +11,4 @@ jobs:
         run: date
 
       - name: Esperar 3 segundos
-        run: timeout /t 3
+        run: sleep 3
