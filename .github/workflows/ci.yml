@@ -12,4 +12,4 @@ steps:
   run: date
 
 - name: Esperar 3 segundos
-  run: sleep 3
+  run: timeout /t 3
