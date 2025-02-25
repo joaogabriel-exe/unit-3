@@ -1,17 +1,15 @@
 name: CI
 
-2
-
 on: [push]
 
 jobs:
-build:
-runs-on: windows-latest
+  build:
+    runs-on: windows-latest
 
 steps:
 
 - name: Ver la hora
-run: date
+  run: date
 
 - name: Esperar 3 segundos
-run: sleep 3
+  run: sleep 3
